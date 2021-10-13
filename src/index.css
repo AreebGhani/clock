@@ -1,0 +1,91 @@
+body {
+  background: black;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17D4FE;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+
+.main{
+  background-color: lightslategray;
+  color: red;
+  margin: 50px;
+  box-shadow: grey 0px 50px 100px -20px, grey 0px 30px 60px -30px;
+}
+
+.main-nav{
+  width: 100px;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: 8rem 1fr 2fr 1fr 8rem;
+}
+
+.logo{
+  grid-column: 1;
+  justify-content: start;
+  align-items: center;
+  margin: 20px;
+}
+
+.menu-link{
+  grid-column: 6;
+}
+
+.menu-link h3{
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-link h3 a {
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+
+.menu-link h3 p{
+  margin: 15px;
+  margin-top: -50px;
+}
+
+.menu-link h3 p:hover{
+  transform-origin: left;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.social-media{
+  grid-column: 8;
+}
+.social-media h3{
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-media h3 p{
+  margin: 15px;
+  margin-top: -50px;
+}
+
+.social-media h3 p:hover{
+  transform-origin: left;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.hero-section{
+ text-align: center; 
+ margin: 200px;
+}
