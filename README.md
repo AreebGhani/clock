@@ -1,4 +1,4 @@
-##### Docs https://areebghani.github.io/clock/
+##### Demo https://areebghani.github.io/clock/
  
  ## Let's Go . . . ! !
  
